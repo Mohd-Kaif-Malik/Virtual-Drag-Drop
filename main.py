@@ -39,7 +39,7 @@ while True:
             index_tip = lm_list[8]    # Index finger tip
             middle_tip = lm_list[12]  # Middle finger tip
 
-            # Check distance between index & middle fingers
+            # Check distance between index and middle fingers
             if index_tip and middle_tip:
                 distance = ((index_tip[0] - middle_tip[0]) ** 2 + (index_tip[1] - middle_tip[1]) ** 2) ** 0.5
 
